@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Feline Web Content">
+<meta name="keywords" content="Cat, Feline, News, Adoption, Adopt, Blog, Cat City">
+<meta http-equiv="refresh" content="60">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Norie | Rubric 1 Basics</title>
+	
+
+<link href="../../Desktop/Rubric1/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+
+function myFunction () {
+var adoptCats = prompt("How many cats do you have?"); 
+
+var adoptCats = adoptCats/1; 
+var adoptCats = adoptCats + 1;
+
+var message;
+
+if (adoptCats > 0) {
+	message = " cats";
+} else {
+	message = " cat";
+} 
+
+alert("If you adopt a cat today, you will have " + adoptCats + message + ".");
+}
+</script>
+</head>
+
+<body>
+	<div id="container">
+		<div class="bg"></div>
+		<header class="header">
+			
+			<h1>Cat City</h1>
+			
+		</header>
+		<nav class="nav">
+			<ul>
+				<li class="link"><a>News</a></li>
+				<li class="link"><a>Contact</a></li>
+				<li class="link"><a>Blog</a></li>
+				<li class="adopt"><button onclick="myFunction()">Adopt</button></li>
+			</ul>
+		</nav>
+		
+		<div id="content">
+			
+			<section>
+				<h3></h3>
+					<p></p>
+			</section>
+						
+		</div>
+		<footer id="footer">&copy; 2018 Norie Agbuke</footer>
+	</div>
+</body>
+</html>
